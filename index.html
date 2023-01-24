@@ -7,24 +7,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tic tac toe</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="mediaScreen.css">
     <script src="first.js" defer></script>
 </head>
 
 <body>
-    <div class="first-main">
-        <div class="second-main flex">
-            <div class="grid bb br" id="0"></div>
-            <div class="grid bb br" id="1"></div>
-            <div class="grid bb   " id="2"></div>
-            <div class="grid bb br" id="3"></div>
-            <div class="grid bb br" id="4"></div>
-            <div class="grid bb   " id="5"></div>
-            <div class="grid    br" id="6"></div>
-            <div class="grid    br" id="7"></div>
-            <div class="grid      " id="8"></div>
-        </div>
-        <div class="score flex max ">
+    <div class="container ">
+        <table class="second-main flex">
+            <tr>
+                <td class="grid b " id="0">O</td>
+                <td class="grid b " id="1">X</td>
+                <td class="grid b " id="2">O</td>
+            </tr>
+            <tr>
+                <td class="grid b " id="3">X</td>
+                <td class="grid b " id="4">O</td>
+                <td class="grid b " id="5">X</td>
+            </tr>
+            <tr>
+                <td class="grid b " id="6">X</td>
+                <td class="grid b " id="7">O</td>
+                <td class="grid b " id="8">X</td>
+            </tr>
+        </table>
+
+        <div class="score flex  ">
             <div class="your-score">You : 0</div>
             <div>|</div>
             <div class="draw">Draw : 0</div>
