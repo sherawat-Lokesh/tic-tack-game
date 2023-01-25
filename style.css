@@ -70,13 +70,6 @@ justify-items: center;
   padding: .5vw;
 }
 
-
-
-
-
-
-
-
 #overlay {
   position: fixed; /* Sit on top of the page content */
   width: 100%; /* Full width (cover the whole page) */
@@ -110,4 +103,37 @@ justify-items: center;
   font-size: 1rem;
   border-radius: 2px;
   font-weight: 500;
+}
+
+@media  screen and (max-width:500px) {
+  td{
+    height: 35vw;
+    min-width: 30vw;
+    font-size: 15vw;
+  }
+  .score{
+    font-size: 7vw;
+    margin-top: 5vw;
+  }
+  
+}
+@media screen and (max-width:950px ) {
+
+  td{
+    height: 30vw;
+    min-width: 30vw;
+    font-size: 15vw;
+  }
+  .score{
+    font-size: 7vw;
+    margin-top: 5vw;
+  }
+  
+  #text{
+    font-size:8vw ;
+  }
+  .new-game{
+    font-size: 4vw;
+  }
+  
 }
