@@ -18,7 +18,8 @@ function run(){
             e.target.textContent='O';
             e.target.removeEventListener('click',insert);
             checkId.push({text:e.target.textContent,id:e.target.id});
-            navigator.vibrate(40);
+            if(navigator.vibrate()){
+            navigator.vibrate(60);}
             // console.log(checkId);// logging checkID 
             const aud= new Audio('./sounds/Player1.mp3') 
             aud.play()
